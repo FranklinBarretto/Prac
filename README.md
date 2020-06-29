@@ -10,10 +10,10 @@
 ### First time setup (using virtualenv)
 ```
 # using virtualenv
-virtualenv --python=python3.8 testenv --no-site-packages
-git clone git@.git
-cd test
-source testenv/bin/activate
+virtualenv --python=python3.8 prac_env
+git clone https://github.com/FranklinBarretto/Prac.git
+cd Prac
+source prac_env/bin/activate
 pip install -r requirements.txt
 export FLASK_APP=app.py
 flask run
