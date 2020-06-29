@@ -19,6 +19,7 @@ export FLASK_APP=app.py
 flask run
 ```
 ### Curl Commands
-curl --location --request GET 'localhost:5000/read_file'
-curl --location --request GET 'localhost:5000/read_file?start_line=1&end_line=10'
-curl --location --request GET 'localhost:5000/read_file/file3.txt?start_line=1&end_line=10'
+
+* curl --location --request GET 'localhost:5000/read_file'
+* curl --location --request GET 'localhost:5000/read_file?start_line=1&end_line=10'
+* curl --location --request GET 'localhost:5000/read_file/file3.txt?start_line=1&end_line=10
